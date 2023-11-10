@@ -1,80 +1,80 @@
 {
-    "title": "Movie Guessing Game",
-    "help_info": "You're asked to guess a movie name by answering a series of questions.",
-    "root": {
-        "node_num": 1,
-        "question": "Is it an animated movie? (Y/N)",
-        "l": {
-            "node_num": 2,
-            "question": "Does it feature animals prominently? (Y/N)",
-            "l": {
-                "node_num": 3,
-                "question": "Is it a Disney/Pixar movie? (Y/N)",
-                "l": {
-                    "node_num": 4,
-                    "question": "Does it take place in the ocean? (Y/N)",
-                    "l": {
-                        "node_num": 5,
-                        "question": "Does it involve a clownfish? (Y/N)",
-                        "l": "Finding Nemo",
-                        "r": "The Little Mermaid"
-                    },
-                    "r": "Pokemon: The Movie"
-                },
-                "r": "Wall-E"
-            },
-            "r": {
-                "node_num": 7,
-                "question": "Is it about lions? (Y/N)",
-                "l": {
-                    "node_num": 8,
-                    "question": "Is it a musical? (Y/N)",
-                    "l": "The Lion King",
-                    "r": "Madagascar"
-                },
-                "r": {
-                    "node_num": 10,
-                    "question": "Is it a romantic movie? (Y/N)",
-                    "l": {
-                        "node_num": 11,
-                        "question": "Does it take place in outer space? (Y/N)",
-                        "l": "Star Wars",
-                        "r": "Five Feet Apart"
-                    },
-                    "r": "Training Day"
-                }
-            }
-        },
-        "r": {
-            "node_num": 13,
-            "question": "Is it about superheroes? (Y/N)",
-            "l": {
-                "node_num": 14,
-                "question": "Is it a Marvel movie? (Y/N)",
-                "l": {
-                    "node_num": 15,
-                    "question": "Is it about a web-swinging hero? (Y/N)",
-                    "l": "Spider-Man: Homecoming",
-                    "r": "Iron Man"
-                },
-                "r": "Venom"
-            },
-            "r": {
-                "node_num": 17,
-                "question": "Is it a DC movie? (Y/N)",
-                "l": {
-                    "node_num": 18,
-                    "question": "Is it about the Dark Knight? (Y/N)",
-                    "l": "The Dark Knight",
-                    "r": "Wonder Woman"
-                },
-                "r": {
-                    "node_num": 20,
-                    "question": "Is it about love on a ship? (Y/N)",
-                    "l": "Titanic",
-                    "r": "Mr. Incredible"
-                }
-            }
-        }
-    }
+"title": "Movie Guessing Game",
+"help_info": "You're asked to guess a movie name by answering a series of questions.",
+"root": {
+"node_num": 1,
+"question": "Is it an animated movie? (Y/N)",
+"l": {
+"node_num": 2,
+"question": "Does it feature animals prominently? (Y/N)",
+"l": {
+"node_num": 3,
+"question": "Is it a Disney/Pixar movie? (Y/N)",
+"l": {
+"node_num": 4,
+"question": "Does it take place in the ocean? (Y/N)",
+"l": {
+"node_num": 5,
+"question": "Does it involve a clownfish? (Y/N)",
+"l": "Finding Nemo",
+"r": "The Little Mermaid"
+},
+"r": "Pokemon: The Movie"
+},
+"r": "Wall-E"
+},
+"r": {
+"node_num": 7,
+"question": "Is it about lions? (Y/N)",
+"l": {
+"node_num": 8,
+"question": "Is it a musical? (Y/N)",
+"l": "The Lion King",
+"r": "Madagascar"
+},
+"r": {
+"node_num": 10,
+"question": "Is it a romantic movie? (Y/N)",
+"l": {
+"node_num": 11,
+"question": "Does it take place in outer space? (Y/N)",
+"l": "Star Wars",
+"r": "Five Feet Apart"
+},
+"r": "Training Day"
+}
+}
+},
+"r": {
+"node_num": 13,
+"question": "Is it about superheroes? (Y/N)",
+"l": {
+"node_num": 14,
+"question": "Is it a Marvel movie? (Y/N)",
+"l": {
+"node_num": 15,
+"question": "Is it about a web-swinging hero? (Y/N)",
+"l": "Spider-Man: Homecoming",
+"r": "Iron Man"
+},
+"r": "Venom"
+},
+"r": {
+"node_num": 17,
+"question": "Is it a DC movie? (Y/N)",
+"l": {
+"node_num": 18,
+"question": "Is it about the Dark Knight? (Y/N)",
+"l": "The Dark Knight",
+"r": "Wonder Woman"
+},
+"r": {
+"node_num": 20,
+"question": "Is it about love on a ship? (Y/N)",
+"l": "Titanic",
+"r": "Mr. Incredible"
+}
+}
+}
+}
 }
